@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  
+}
+h2, blockquote {
+  font-size: 30px;
+  margin-left: 200px;
+}
+span{
+  margin-left: 200px;
+}
+iframe{
+  margin-left: 300px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 20px 8px 6px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  font-size: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: brown;
+  padding-block: 100px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(161, 206, 243);
+}
+footer{
+    padding-block: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+    
+  
+}
+footer a {
+  
+  color: #007bff;
+  text-decoration: none;
+}
+#image {
+  margin-left: 135px;
+}
+p {
+  padding-right: 10px;
+  text-align: justify;
+  margin-block: 10px;
+  margin-left: 350px;
+  color: #111;
+}
+
+
+
+
+  
+  table {
+    width: 60%;
+    margin-left: 200px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tfoot td {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  form {
+    width: 50%;
+    margin-left: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }

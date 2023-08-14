@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criando Tabelas  - DIO.me</title>
+  <style>
+      table {
+        -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+        box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+        border:  solid 1px gray;
+      }
+      
+      table thead th{
+        background-color: black ;
+        color: white;
+      }
+      table tfoot td {
+        background-color: lightgray;
+      }
+      table tbody tr:nth-child(even) td{
+        background-color: #f1f1f1;
+      }
+      table tbody tr:hover td{
+        background-color: #E9E9E9;
+        cursor: pointer;
+      }
+  </style>
+</head>
+<body>
+     <table  width="250"  align="center" cellspacing="0" cellpadding="5">
+        <caption>Tabela de idades dos alunos Dio.me</caption>
+        <thead>
+          <tr>
+              <th colspan="2">Minha tabela</th>
+          </tr>
+          <tr>
+            <th title="Nome completo">Nome</th>
+            <th>Idade</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+            <tr id="1">
+              <td>John</td>
+              <td>30</td>
+            </tr>
+            <tr id="2">
+              <td>Clecio</td>
+              <td>31</td>
+            </tr>
+            <tr id="3">
+              <td>Fideles</td>
+              <td>32</td>
+            </tr>
+            <tr id="4">
+              <td>Lima</td>
+              <td>33</td>
+            </tr>
+            <tr id="5">
+              <td>Mac</td>
+              <td>33</td>
+            </tr>
+            <tr id="6">
+              <td>Filipe</td>
+              <td>33</td>
+            </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+              <td>Total</td>
+              <td>6</td>
+           </tr>
+        </tfoot>
+
+     </table>
+</body>
+</html>
